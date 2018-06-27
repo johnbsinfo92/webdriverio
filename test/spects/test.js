@@ -13,7 +13,7 @@ describe('My react Test', function () {
       browser.keys('Enter');
       browser.pause(2500);
       let pageHeading = browser.getText('h1');
-      expect(pageHeading).to.equal('MOANA');
+      expect(pageHeading).to.equal('MONA');
       expect(browser.getText('.tagline')).to.equal('The ocean is calling.');
   })
 })
