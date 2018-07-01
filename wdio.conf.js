@@ -48,7 +48,7 @@ exports.config = {
         version: '67.0.3396.99',
         platform: 'LINUX',
         chromeOptions: {
-          args: ['--no-sandbox ','--headless', '--disable-gpu']
+          args: ['--no-sandbox ','--headless', '--disable-gpu','window-size=800,600','--screenshot']
         }
     }],
     //
