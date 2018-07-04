@@ -6,6 +6,10 @@
   "scripts": {
     "wdio": "wdio"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vvo/selenium-standalone.git"
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
