@@ -1,6 +1,6 @@
 const expect = require('chai').expect;
 
-describe('My react Test', function () {
+describe('Front End Test', function () {
   beforeEach(function () {
     browser.url('./');
     browser.waitForText('[data-reactroot]');
