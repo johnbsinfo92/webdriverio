@@ -132,6 +132,9 @@ exports.config = {
     // see also: http://webdriver.io/guide/reporters/dot.html
     // reporters: ['dot'],
     //
+    reporterOptions: {
+      outputDir: './reports/'
+    }
     // Options to be passed to Mocha.
     // See the full list at http://mochajs.org/
     mochaOpts: {
