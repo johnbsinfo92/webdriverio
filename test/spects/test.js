@@ -8,7 +8,7 @@ const assert = require('chai').assert;
   })
 
   it('should find moana', function () {
-      browser.pause(2500);
+      browser.pause(10000);
       browser.setValue('#q','moana');
       browser.waitForText('.tt-dropdown-menu');
       browser.keys('Down arrow');
