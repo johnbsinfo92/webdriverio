@@ -1,4 +1,5 @@
 const expect = require('chai').expect;
+const assert = require('chai').assert;
 
   describe('Front End Test', function () {
   beforeEach(function () {
