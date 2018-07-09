@@ -1,10 +1,10 @@
 const expect = require('chai').expect;
 
-describe('Front End Test', function () {
-  beforeEach(function () {
+  describe('Front End Test', function () {
+  /*beforeEach(function () {
     browser.url('./');
     browser.waitForText('[data-reactroot]');
-  })
+  })*/
 
   it('should find moana', function () {
       browser.setValue('#q','moana');
@@ -15,6 +15,6 @@ describe('Front End Test', function () {
       //browser.saveScreenshot('./test-screenshots/snapshot.png');
       let pageHeading = browser.getText('h1');
       expect(pageHeading).to.equal('MOANA');
-      expect(browser.getText('.tagline')).to.equal('The ocean is calling.');
+      //expect(browser.getText('.tagline')).to.equal('The ocean is calling.');
   })
 })
