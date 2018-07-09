@@ -1,10 +1,10 @@
 const expect = require('chai').expect;
 
-describe('Front End Test', function () {
+  /*describe('Front End Test', function () {
   beforeEach(function () {
     browser.url('./');
     browser.waitForText('[data-reactroot]');
-  })
+  })*/
 
   it('should find moana', function () {
       browser.setValue('#q','moana');
