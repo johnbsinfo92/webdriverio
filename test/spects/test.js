@@ -14,7 +14,8 @@ const expect = require('chai').expect;
       browser.pause(2500);
       //browser.saveScreenshot('./test-screenshots/snapshot.png');
       let pageHeading = browser.getText('h1');
-      expect(pageHeading).to.equal('MOANA');
+      //expect(pageHeading).to.equal('MOANA');
       //expect(browser.getText('.tagline')).to.equal('The ocean is calling.');
+      assert(pageHeading === 'MOANA', 'It is not MOANA');
   })
 })
