@@ -9,7 +9,7 @@ const assert = require('chai').assert;
 
   it('should find moana', function () {
       browser.pause(10000);
-      browser.setValue('.searchbox__input typeahead form-control tt-input','moana');  
+      browser.setValue('.searchbox__input','moana');  
       //browser.setValue('#q','moana');
       browser.waitForText('.tt-dropdown-menu');
       browser.keys('Down arrow');
